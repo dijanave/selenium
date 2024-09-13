@@ -73,7 +73,7 @@ System.setProperty("webdriver.chrome.driver", this.driverLocation);
 }
   public void clickElementByLinkText (String Selector)
      {
-        //click element.
+        //click element..
         driver.findElement(By.linkText(Selector)).click(); 
 }
   public void clickElementByName (String Selector)
